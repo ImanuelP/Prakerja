@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        @media (min-width: 321px) {
+            .selector {
+                width: 970px;
+            }    
+        }
+        @media (max-width: 400px) {
+            .selector {
+                width: 750px;
+            }
+        }
+
+.background{
+    background: #DCDCDC;
+}
+.containerMenu{
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    cursor: pointer;
+}
+.subMenu{
+    padding-right: 40px;
+}
+.body {
+    margin-top: 30px;
+}
+.atas{
+    background: white;
+    justify-content: flex-start;
+}
+.bagian {
+    display: flex;
+    margin-left: 100px;
+}
+.image {
+    width: 100px;
+    height: 100px;
+}
+.name{
+    margin-left: 80px;
+}
+.display{
+    display: flex;
+}
+.kontak {
+    height: 40px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+.resume {
+    color: teal;
+    cursor: pointer;
+}
+.form {
+    margin-top: 40px;
+    background: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.label {
+    width: 100%;
+    height: 30px;
+}
+.submit {
+    background: green;
+    color: white;
+    margin-top: 40px;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+    </style>
+    <head>
+        <title>Latihan 1</title>
+        <!-- <link  rel="stylesheet" type="text/css" href="style.css" /> -->
+    </head>
+    <header>
+        <div class="containerMenu">
+            <h4 class="subMenu" onclick="alert('Home On Going')">HOME</h4>
+            <h4 class="subMenu" onclick="alert('Prouduct On Going')">PRODUCT</h4>
+            <h4 class="subMenu" onclick="alert('Gallery On Going')">GALLERY</h4>
+            <h4 class="subMenu" onclick="alert('Blog On Going')">BLOG</h4>
+            <h4 class="subMenu" onclick="alert('Inventory On Going')">MY INVENTORY</h4>
+            </div>
+    </header>
+    <body class="background">
+        <div  class="body">
+     <div class="atas">
+        <div class="bagian">
+        <div class="body">
+            <img src="https://www.seekpng.com/png/detail/842-8422788_naruto-mangekyou-sharingan-sarada.png" class="image" />
+        </div>
+        <div class="name">
+            <h3>Imanuel Elkana Pardosi</h3>
+            <p>Front End Developer</p>
+            <div class="display">
+                <button class="kontak" onclick="alert('Kontak On Going')">Kontak</button> &nbsp; &nbsp; &nbsp;
+                <button class="resume" onclick="alert('Resume On Going')">Resume</button>
+            </div>
+        </div>
+        <div class="name">
+            <p><b>Availabillity</b></p>
+            <p></p><b>Usia</b></p>
+            <p><b>Lokasi</b></p>
+            <p><b>Pengalaman</b></p>
+            <p><b>Email</b></p>
+        </div>
+        <div class="name">
+            <p>Full Time</p>
+            <p>26 tahun</p>
+            <p>Medan</p>
+            <p>2</p>
+            <i>elkanaimanuel0@gmail.com</i>
+        </div>
+    </div>
+    </div>
+    <div class="form">
+        <p><strong>Name</strong></p>
+        <input type="text" class="label"/>
+        <p><strong>Role</strong></p>
+        <input type="text" class="label"/>
+        <p><strong>Availabillity</strong></p>
+        <input type="text" class="label"/>
+        <p><strong>Age</strong></p>
+        <input type="number" class="label">
+        <p><strong>Lokasi</strong></p>
+        <input type="text" class="label"/>
+        <p><strong>Years Experiance</strong></p>
+        <input type="number" class="label"/>
+        <p><strong>Email</strong></p>
+        <input type="text" class="label"/>
+        <button class="submit" onclick="alert('Submit On Going')">
+            Submit
+        </button>
+    </div>
+</div>
+    </body>
+</html>
